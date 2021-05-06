@@ -1,0 +1,20 @@
+
+.page-heading {
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    text-align: center;
+  }
+
+  
+.more-about-us {
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  text-align: center;
+}
