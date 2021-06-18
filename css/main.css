@@ -168,10 +168,79 @@ nav {
 }
 
 
-
-
 .full-screen-portfolio .container-fluid,
 .full-screen-portfolio .col-md-4, .col-md-8 {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+
+/* services -> staff */
+
+.services {
+  background-color: #232323;
+  padding: 65px 0px;
+  display: flex;
+ }
+
+ .services .service-item {
+  margin: 15px 0px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.5s;
+  
+ }
+
+.services .service-item:hover {
+  background-color: #313131;
+}
+
+ .services .service-item .icon {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+ }
+
+.services .service-item .icon img {
+  border-radius: 50% 0 50% 0;
+  max-width: 100%;
+}
+
+.services .service-item h4 {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.services .service-item p {
+  color: #bbb;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.container{
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+
+.col-md-4, .col-sm-6{
+  position: relative;
+  min-height: 1px;
+  
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 3 30%;
+}
+
