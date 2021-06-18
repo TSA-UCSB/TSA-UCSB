@@ -354,22 +354,22 @@ nav {
 
 
 
-.past-event .event-1 {
-  background-image: url(../img/logo.jpg);
+.event-1 {
+  background-image: url(../img/2020_orientation-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
-.past-event .event-2 {
+.event-2 {
   background-image: url(../img/profile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
-.past-event .event-3 {
-  background-image: url(../img/logo.jpg);
+.event-3 {
+  background-image: url(../img/2020_orientation-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
