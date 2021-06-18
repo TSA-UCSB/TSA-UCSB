@@ -25,7 +25,7 @@ body, html {
 }
 
 .page-heading {
-    background-image: url(../img/about_us.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/about_us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -216,19 +216,21 @@ nav {
 .services .service-item .ig, .linkedIn{
   width: 25px;
   height: 25px;
-  border-radius: 50%;
+  border-radius: 50%;      
   display: inline-block;
 }
 
 
 .container{
+  position:relative;
+  align-content: center;
   padding-right:15px;
   padding-left:15px;
   margin-right:auto;
   margin-left:auto;
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
+  justify-content: center;
 }
 
 
@@ -250,13 +252,184 @@ nav {
   flex: 1 3 10%;
 }
 
+.col-md-offset-7 {
+  margin-left: 58.33333333%;
+}
 
-.more-about-us {
-  background-image: url(../img/logo.jpg);
+
+/*event coming up */
+.event {
+  background-image: url(../img/2021_orientation.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   width: 100%;
   text-align: center;
+}
+
+.event .content {
+  background-color: rgba(0,0,0,0.8);
+  text-align: left;
+  padding: 150px 60px;
+  color: #fff;
+  min-height: 600px;
+}
+
+.event .content h2 {
+  margin-top: 0px;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.event .content span {
+  font-size: 16px;
+  font-weight: 200;
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.event .content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  
+}
+
+.event .content .simple-btn {
+  margin-top: 30px;
+}
+
+.event .content .simple-btn a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: #fff;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.event .content .simple-btn a:hover {
+  opacity: 0.5;
+}
+
+
+/*past-event */
+.past-event-container{
+  position:relative;
+  align-content: center;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+  display: flex;
+  width: 100%;
+}
+
+.past-event {
+  /* background-image: url(../img/about_us.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; */
+  text-align: center;
+  overflow: hidden;
+  width: 33.3333333%;
+  opacity: 50%;
+}
+.past-event:hover {
+  width: 100%;
+  overflow: visible;
+  opacity: 100%;
+  transition: .5s ease;
+}
+
+
+
+.past-event .event-1 {
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.past-event .event-2 {
+  background-image: url(../img/profile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.past-event .event-3 {
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.past-event .content {
+  background-color: rgba(0,0,0,0.8);
+  text-align: left;
+  padding: 150px 60px;
+  color: #fff;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.past-event .content h2 {
+  margin-top: 0px;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.past-event .content span {
+  font-size: 16px;
+  font-weight: 200;
+  display: inline-block;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+.past-event .content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-overflow: ellipsis;
+  width: 500px; 
+  height: 150px; 
+  white-space: nowrap;
+}
+
+.past-event .content .simple-btn {
+  margin-top: 30px;
+}
+
+.past-event .content .simple-btn a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  color: #fff;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.past-event .content .simple-btn a:hover {
+  opacity: 0.5;
 }
