@@ -102,6 +102,7 @@ nav button{
   background-repeat:no-repeat;
   cursor:pointer;
   transition: all 0.5s;
+  z-index: 999;
 }
 
 nav button:hover{
