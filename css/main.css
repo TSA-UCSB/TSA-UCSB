@@ -79,6 +79,31 @@ nav {
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
 }
 
+.menu-links{
+  position:relative;
+  color: #ffffff;
+  padding-left: 50%;
+  padding-top: 40px;
+  width: 500px;
+  height: 10px;
+}
+
+.menu-links button{
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  transition: all 0.5s;
+  display: flex;
+}
+
+.menu-links button:hover{
+  opacity: 50%;
+}
+
 /* video container */
 
 #video-container  {
