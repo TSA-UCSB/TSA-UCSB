@@ -6,6 +6,28 @@
   		<title>UCSB TSA website</title>
         <link rel="icon" href="img/logo.jpg">
         <link rel="stylesheet" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#event-1-thumbnail').hover(function() {
+                    $('#event-1').css('opacity', '1');
+                    $('#event-2').css('opacity', '0');
+                    $('#event-3').css('opacity', '0');
+                });
+
+                $('#event-2-thumbnail').hover(function() {
+                    $('#event-1').css('opacity', '0');
+                    $('#event-2').css('opacity', '1');
+                    $('#event-3').css('opacity', '0');
+                });
+                
+                $('#event-3-thumbnail').hover(function() {
+                    $('#event-1').css('opacity', '0');
+                    $('#event-2').css('opacity', '0');
+                    $('#event-3').css('opacity', '1');
+                });
+            });
+        </script>
         <meta property="og:image" content="img/logo.img"> 
         <!-- 
 
@@ -26,10 +48,10 @@
             </div>
             
             <div class="menu-links">
-                <button onclick="myFunction('services')">About us</button>
-                <button onclick="myFunction('services')">Officers</button>
+                <button onclick="myFunction('about-us')">About us</button>
                 <button onclick="myFunction('event')">Events</button>
                 <button onclick="myFunction('past-event')">Past Events</button>
+                <button onclick="myFunction('officers')">Officers</button>
             </div>
             <div class="menu-icon">
             <span></span>
@@ -51,15 +73,24 @@
             </video>
         </div>
 
-        <div class="page-heading" >
+        <div class="page-heading about-us-header" id="about-us">
             <div class="container">
                 <div class="heading-content">
                     <h1>About <em>Us</em></h1>
                 </div>
             </div>
         </div>
+
         
-        <div class="event" id="event">
+        <div class="page-heading event-header" id="event">
+            <div class="container">
+                <div class="heading-content">
+                    <h1>Coming <em>Up</em></h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="event" >
             <div class="container">
                 <div class="col-md-5 col-md-offset-7">
                     <div class="content">
@@ -80,11 +111,19 @@
                 </div>
             </div>
         </div>
-        
 
-        <div class="past-event-container" id="past-event">
-            <div class="past-event event-1">
-                <div class="container">
+        <div class="page-heading past-event-header" id="past-event">
+            <div class="container">
+                <div class="heading-content">
+                    <h1>Past<em>Events</em></h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="past-event" >
+            <div id="event-1">
+                <div class="container ">        
                     <div class="col-md-5 col-md-offset-8">
                         <div class="content">
                             <br> <br>
@@ -102,15 +141,12 @@
                                 <br> 趕快報名我們的新年趴 無限暢飲,暢玩,還有紅包可以領🍾🧧 
                                 <br> 來PONG！跟我們一起過年變胖！
                             </p>
-                            <!-- <div class="simple-btn">
-                                <a href="#">Continue Reading?</a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="past-event event-2">
-                <div class="container">
+            </div>
+            <div id="event-2">
+                <div class="container ">        
                     <div class="col-md-5 col-md-offset-8">
                         <div class="content">
                             <br> <br>
@@ -119,15 +155,12 @@
                             <p> sth......
                             <br><br>sth....
                             </p>
-                            <!-- <div class="simple-btn">
-                                <a href="#">Continue Reading?</a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
-            </div> 
-            <div class="past-event event-3">
-                <div class="container">
+            </div>
+            <div id="event-3">
+                <div class="container ">        
                     <div class="col-md-5 col-md-offset-8">
                         <div class="content">
                             <br> <br>
@@ -136,22 +169,34 @@
                             <p> sth......
                             <br><br>sth....
                             </p>
-                            <!-- <div class="simple-btn">
-                                <a href="#">Continue Reading?</a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
-            </div>          
+            </div>
+            <div class="past-event-all-thumbnail">
+                <div id = "event-1-thumbnail" >
+                    <img  src="img/about_us.jpg">
+                </div>
+                <div id = "event-2-thumbnail">
+                    <img src="img/about_us.jpg">
+                </div>
+                <div id = "event-3-thumbnail">
+                    <img src="img/about_us.jpg">
+                </div>
+            </div>
         </div>
-        <!--
-            pic in the center
-            hover - change pic
-         -->
 
 
 
-        <div class="services" id="services" >
+         <div class="page-heading officers-header" id="officers">
+            <div class="container">
+                <div class="heading-content">
+                    <h1><em>Officers</em></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="services"  >
             <div class="container">
                 <div class="col-md-4 col-sm-6">
                     <div class="service-item">
@@ -308,6 +353,14 @@
         </div>
 
         <!-- contact us -->
+        <div class="page-heading contact-us-header" id="contact-us">
+            <div class="container">
+                <div class="heading-content">
+                    <h1>Contact<em>Us</em></h1>
+                </div>
+            </div>
+        </div>
+
 
         <footer>
             <div class="container-fluid">

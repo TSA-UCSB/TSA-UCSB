@@ -26,13 +26,10 @@ body, html {
 }
 
 .page-heading {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/about_us.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     width: 100%;
     text-align: center;
   }
+
 
 .page-heading .heading-content h1 {
   font-size: 32px;
@@ -42,7 +39,7 @@ body, html {
   background-color: rgba(250,250,250,0.1);
   display: inline-block;
   margin-bottom: 0;
-  margin-top: 220px;
+  margin-top: 50px;
   padding: 20px 60px;
 }
   
@@ -86,9 +83,8 @@ nav {
   position:relative;
   color: #ffffff;
   padding-left: 50%;
-  padding-top: 40px;
   width: 1000px;
-  height: 10px;
+  height: 80px;
   display: flex;
 }
 
@@ -194,6 +190,15 @@ nav button:hover{
   padding-right: 0px;
 }
 
+/*about us*/
+
+.about-us-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../img/about_us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 /* services -> staff */
 
@@ -288,6 +293,20 @@ nav button:hover{
 }
 
 
+
+.col-md-5 .col-md-offset-8{
+  position: relative;
+  min-height: 1px;
+  align-self: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 1 3 10%;
+}
+
+.col-md-offset-8 {
+  margin-right: 58.33333333%;
+}
+
 /*event coming up */
 .event {
   background-image: url(../img/2021_orientation.jpg);
@@ -305,6 +324,7 @@ nav button:hover{
   padding: 150px 60px;
   color: #fff;
   min-height: 600px;
+  position: relative;
 }
 
 .event .content h2 {
@@ -353,69 +373,20 @@ nav button:hover{
 }
 
 
-/*past-event */
-.past-event-container{
-  position:relative;
-  align-content: center;
-  padding-right:15px;
-  padding-left:0px;
-  margin-right:auto;
-  margin-left:auto;
-  display: flex;
-  width: 100%;
-  
-}
-
+/*past-event*/
 .past-event {
-  /* background-image: url(../img/about_us.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center; */
-  text-align: center;
-  overflow: hidden;
-  width: 33.3333333%;
-  opacity: 50%;
-}
-.past-event:hover {
   width: 100%;
-  overflow: visible;
-  opacity: 100%;
-  transition: 1s ease;
+  text-align: center;
+  position: relative;
 }
-
-
-
-.event-1 {
-  background-image: url(../img/2020_orientation-2.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-.event-2 {
-  background-image: url(../img/profile.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-.event-3 {
-  background-image: url(../img/2020_orientation-2.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-}
-
 
 .past-event .content {
   background-color: rgba(0,0,0,0.8);
   text-align: left;
   padding: 150px 60px;
   color: #fff;
-  overflow: hidden;
-  min-height: 500px;
+  min-height: 600px;
+  position: relative;
 }
 
 .past-event .content h2 {
@@ -439,10 +410,7 @@ nav button:hover{
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  text-overflow: ellipsis;
-  width: 500px; 
-  height: 150px; 
-  white-space: nowrap;
+  
 }
 
 .past-event .content .simple-btn {
@@ -465,6 +433,71 @@ nav button:hover{
 .past-event .content .simple-btn a:hover {
   opacity: 0.5;
 }
+
+
+.past-event-all-thumbnail{
+  position: absolute;
+  display:flex;
+  width: 500px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+  justify-content: space-between;
+}
+.past-event-all-thumbnail img{
+  width: 100px;
+  height: auto;
+  opacity: 50%;
+}
+
+.past-event-all-thumbnail img:hover{
+  opacity: 100%;
+  transition: all 0.5s ease;
+}
+
+#event-1 {
+  position: relative;
+  background-image: url(../img/2020_orientation-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+#event-2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url(../img/profile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+#event-3 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url(../img/2020_orientation-2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+
+
+
+
+
 
 
 /*footer*/
