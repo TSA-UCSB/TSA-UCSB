@@ -97,7 +97,6 @@ nav {
   background-repeat:no-repeat;
   cursor:pointer;
   transition: all 0.5s;
-  display: flex;
 }
 
 .menu-links button:hover{
