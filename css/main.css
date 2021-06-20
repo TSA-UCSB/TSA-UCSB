@@ -212,7 +212,7 @@ nav button:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height:500px;
+  height:300px;
   text-align: center;
   color: white;
   position: relative;
@@ -242,6 +242,9 @@ nav button:hover{
   text-align: center;
   padding: 0px 30px;
   font-style: italic;
+  max-width: 400px;
+  margin: auto;
+  line-height: 1.6;
 }
 
 /* services -> staff */
