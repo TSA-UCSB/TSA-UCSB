@@ -371,7 +371,7 @@ nav button:hover{
 
 /*event coming up */
 .event {
-  background-image: url(../img/2021_orientation.jpg);
+  background-image: url(../img/Events/2021_orientation.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -527,7 +527,7 @@ nav button:hover{
 
 #event-1 {
   position: relative;
-  background-image: url(../img/2020_orientation-2.jpg);
+  background-image: url(../img/Events/UCTU_Pong.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -539,7 +539,7 @@ nav button:hover{
   position: absolute;
   top: 0;
   width: 100%;
-  background-image: url(../img/profile.jpg);
+  background-image: url(../img/Events/2020_Hot_Pot.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -551,7 +551,7 @@ nav button:hover{
   position: absolute;
   top: 0;
   width: 100%;
-  background-image: url(../img/2020_orientation-2.jpg);
+  background-image: url(../img/Events/2020_orientation-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
