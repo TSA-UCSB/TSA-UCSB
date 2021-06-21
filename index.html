@@ -9,23 +9,37 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
-                $('#event-1-thumbnail').hover(function() {
-                    $('#event-1').css('opacity', '1');
+                $.clearAll = function(){
+                    $('#event-1').css('opacity', '0');
                     $('#event-2').css('opacity', '0');
                     $('#event-3').css('opacity', '0');
+                    $('#event-4').css('opacity', '0');
+                    $('#event-5').css('opacity', '0');
+                }
+                $('#event-1-thumbnail').hover(function() {
+                    $.clearAll();
+                    $('#event-1').css('opacity', '1');
                 });
 
                 $('#event-2-thumbnail').hover(function() {
-                    $('#event-1').css('opacity', '0');
+                    $.clearAll();
                     $('#event-2').css('opacity', '1');
-                    $('#event-3').css('opacity', '0');
                 });
                 
                 $('#event-3-thumbnail').hover(function() {
-                    $('#event-1').css('opacity', '0');
-                    $('#event-2').css('opacity', '0');
+                    $.clearAll();
                     $('#event-3').css('opacity', '1');
                 });
+
+                $('#event-4-thumbnail').hover(function() {
+                    $.clearAll();
+                    $('#event-4').css('opacity', '1');
+                });
+
+                $('#event-5-thumbnail').hover(function() {
+                    $.clearAll();
+                    $('#event-5').css('opacity', '1');
+                });  
             });
         </script>
         <meta property="og:image" content="img/logo.img"> 
@@ -185,6 +199,34 @@
                     </div>
                 </div>
             </div>
+            <div id="event-4">
+                <div class="container ">        
+                    <div class="col-md-5 col-md-offset-8">
+                        <div class="content">
+                            <br> <br>
+                            <h2>2020 Orientation</h2>
+                            <span>Aug 28, 2020</span>
+                            <p> sth......
+                            <br><br>sth....
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="event-5">
+                <div class="container ">        
+                    <div class="col-md-5 col-md-offset-8">
+                        <div class="content">
+                            <br> <br>
+                            <h2>2020 Orientation</h2>
+                            <span>Aug 28, 2020</span>
+                            <p> sth......
+                            <br><br>sth....
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="past-event-all-thumbnail">
                 <div id = "event-1-thumbnail" >
                     <img  src="img/Events/UCTU_Pong.jpeg">
@@ -193,6 +235,12 @@
                     <img src="img/about_us.jpg">
                 </div>
                 <div id = "event-3-thumbnail">
+                    <img src="img/Events/2020_orientation.jpg">
+                </div>
+                <div id = "event-4-thumbnail">
+                    <img src="img/about_us.jpg">
+                </div>
+                <div id = "event-5-thumbnail">
                     <img src="img/Events/2020_orientation.jpg">
                 </div>
             </div>
