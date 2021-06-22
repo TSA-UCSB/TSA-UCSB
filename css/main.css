@@ -380,6 +380,7 @@ nav button:hover{
   text-align: center;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .event .content {
@@ -538,6 +539,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   opacity: 1;
 }
 #event-2 {
@@ -554,6 +556,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   opacity: 0;
 }
 #event-3 {
@@ -570,6 +573,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   opacity: 0;
 }
 #event-4 {
@@ -586,6 +590,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   opacity: 0;
 }
 #event-5 {
@@ -602,6 +607,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -webkit-transform-style: preserve-3d;
   -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
   opacity: 0;
 }
 
