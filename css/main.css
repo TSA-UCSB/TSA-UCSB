@@ -658,3 +658,11 @@ footer a:hover {
   text-decoration: none;
   color: #aaa;
 }
+
+
+
+@media (max-width: 767px) {
+  [class^="event-"]{
+      background-attachment: initial;
+  }
+}
