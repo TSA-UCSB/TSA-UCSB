@@ -378,6 +378,7 @@ nav button:hover{
   background-position: center center;
   width: 100%;
   text-align: center;
+  -webkit-transform-style: preserve-3d;
 }
 
 .event .content {
@@ -536,6 +537,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-transform-style: preserve-3d;
   opacity: 1;
 }
 #event-2 {
@@ -552,6 +554,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-transform-style: preserve-3d;
   opacity: 0;
 }
 #event-3 {
@@ -568,6 +571,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-transform-style: preserve-3d;
   opacity: 0;
 }
 #event-4 {
@@ -584,6 +588,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-transform-style: preserve-3d;
   opacity: 0;
 }
 #event-5 {
@@ -600,6 +605,7 @@ nav button:hover{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-transform-style: preserve-3d;
   opacity: 0;
 }
 
@@ -659,10 +665,3 @@ footer a:hover {
   color: #aaa;
 }
 
-
-
-@media (max-width: 767px) {
-  [class^="event-"]{
-      background-attachment: initial;
-  }
-}
