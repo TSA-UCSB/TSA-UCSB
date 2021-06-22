@@ -649,6 +649,6 @@ footer a:hover {
   color: #aaa;
 }
 
- * {
+.past-event * {
   transform-style: preserve-3d;
 }
