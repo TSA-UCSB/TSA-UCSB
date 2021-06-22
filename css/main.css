@@ -379,6 +379,7 @@ nav button:hover{
   width: 100%;
   text-align: center;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
 
 .event .content {
@@ -535,9 +536,8 @@ nav button:hover{
   background-position: center center;
   transition: all 0.5s ease;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   opacity: 1;
 }
 #event-2 {
@@ -552,9 +552,8 @@ nav button:hover{
   background-position: center center;
   transition: all 0.5s ease;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   opacity: 0;
 }
 #event-3 {
@@ -569,9 +568,8 @@ nav button:hover{
   background-position: center center;
   transition: all 0.5s ease;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   opacity: 0;
 }
 #event-4 {
@@ -586,9 +584,8 @@ nav button:hover{
   background-position: center center;
   transition: all 0.5s ease;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   opacity: 0;
 }
 #event-5 {
@@ -603,9 +600,8 @@ nav button:hover{
   background-position: center center;
   transition: all 0.5s ease;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   opacity: 0;
 }
 
