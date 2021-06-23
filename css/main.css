@@ -650,7 +650,3 @@ footer a:hover {
   text-decoration: none;
   color: #aaa;
 }
-
-#event-1, #event-2, #event-3, #event-4, #event-5, .past-event, .event , .container, .col-md-5, .col-md-offset-8, .col-md-offset-7, .content{
-  transform-style: preserve-3d;
-}
