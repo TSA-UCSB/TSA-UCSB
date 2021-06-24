@@ -97,6 +97,7 @@ nav {
   height: 80px;
   display: flex;
   justify-content: flex-end;
+  padding-right: 50px;
 }
 
 nav button{
