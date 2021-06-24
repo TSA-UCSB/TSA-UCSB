@@ -1,10 +1,12 @@
+@import 'font.css';
+
 /* hide scroll bar */
 /* html {
   overflow-x: initial !important; 
 } */
 
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Lucida Grande'/*, sans-serif*/;
   background-color: #313131;
   margin: 0;
 }
@@ -108,6 +110,7 @@ nav button{
   transition: all 0.5s;
   z-index: 999;
   font-weight: 900;
+  /* font-family: 'Lucida Grande'; */
 }
 
 nav button:hover{
@@ -242,7 +245,7 @@ nav button:hover{
   letter-spacing: 1.5px;
   text-align: center;
   padding: 0px 30px;
-  font-style: italic;
+  /* font-style: italic; */
   max-width: 750px;
   margin: auto;
   line-height: 1.6;
