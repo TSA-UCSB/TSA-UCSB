@@ -46,6 +46,11 @@ body, html {
   /* box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5); */
 }
   
+.page-heading em {
+  text-decoration: underline;
+  font-size: 34px;
+}
+
 /* nav*/
 
 nav .logo {
@@ -643,14 +648,14 @@ footer p {
   text-align: right;
   color: #fff;
   font-weight: 200;
-  font-size: 5px;
+  font-size: 2px;
   text-transform: uppercase;
   padding-top: 33px;
   letter-spacing: 0.5px;
 }
 
 footer a {
-  color: #aaa;
+  color: #fff;
   text-decoration: none;
 }
 
