@@ -458,6 +458,7 @@ nav button:hover{
   position: relative;
   max-height: 100%;
   border-radius: 0% 0% 5% 5%;
+  overflow: hidden;
 }
 
 .past-event .content h2 {
