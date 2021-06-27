@@ -47,8 +47,10 @@ body, html {
 }
   
 .page-heading em {
-  text-decoration: underline;
-  font-size: 34px;
+  /* text-decoration: underline; */
+  font-style: normal;
+  font-weight:300;
+  font-size: 32px;
 }
 
 /* nav*/
@@ -648,7 +650,7 @@ footer p {
   text-align: right;
   color: #fff;
   font-weight: 200;
-  font-size: 2px;
+  font-size: 5px;
   text-transform: uppercase;
   padding-top: 33px;
   letter-spacing: 0.5px;
