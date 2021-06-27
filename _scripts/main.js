@@ -5,6 +5,7 @@ $(document).ready(function(){
         $('#event-3').css('opacity', '0');
         $('#event-4').css('opacity', '0');
         $('#event-5').css('opacity', '0');
+        $('#event-6').css('opacity', '0');
     }
     $('#event-1-thumbnail').hover(function() {
         $.clearAll();
@@ -30,4 +31,9 @@ $(document).ready(function(){
         $.clearAll();
         $('#event-5').css('opacity', '1');
     });  
+
+    $('#event-6-thumbnail').hover(function() {
+        $.clearAll();
+        $('#event-6').css('opacity', '1');
+    }); 
 });

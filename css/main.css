@@ -544,7 +544,7 @@ nav button:hover{
 
 #event-1 {
   position: relative;
-  background-image: url(/img/Events/02.05.21.jpg);
+  background-image: url(/img/Events/2021_orientation-2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -553,7 +553,23 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 1;
 }
+
 #event-2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/Events/02.05.21.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease;
+  -webkit-background-size: cover;
+  opacity: 0;
+}
+
+#event-3 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -567,7 +583,7 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 0;
 }
-#event-3 {
+#event-4 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -581,7 +597,7 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 0;
 }
-#event-4 {
+#event-5 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -595,7 +611,7 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 0;
 }
-#event-5 {
+#event-6 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -609,7 +625,6 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 0;
 }
-
 
 /*contact us */
 
