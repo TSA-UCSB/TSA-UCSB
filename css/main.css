@@ -405,14 +405,14 @@ nav button:hover{
 
 .event .content h2 {
   margin-top: 0px;
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 5px;
 }
 
 .event .content span {
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 200;
   display: inline-block;
   margin-bottom: 30px;
@@ -421,7 +421,7 @@ nav button:hover{
 
 .event .content p {
   color: #fff;
-  font-size: 16px;
+  font-size: 8px;
   font-weight: 300;
   line-height: 28px;
   
@@ -470,14 +470,14 @@ nav button:hover{
 
 .past-event .content h2 {
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 5px;
 }
 
 .past-event .content span {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 200;
   display: inline-block;
   margin-bottom: 30px;
@@ -486,7 +486,7 @@ nav button:hover{
 
 .past-event .content p {
   color: #fff;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 300;
   line-height: 28px;
   max-height: 100px;
@@ -667,7 +667,7 @@ footer a:hover {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media (min-width:1281px) {
   /* For desktop: */
   .past-event .content h2 {
     font-size: 34px;
@@ -676,6 +676,15 @@ footer a:hover {
     font-size: 16px;
   }
   .past-event .content p {
+    font-size: 16px;
+  }
+  .event .content h2 {
+    font-size: 34px;
+  }
+  .event .content span {
+    font-size: 16px;
+  }
+  .event .content p {
     font-size: 16px;
   }
 }
