@@ -589,6 +589,7 @@ nav button:hover{
   top: 0;
   width: 100%;
   height: 100%;
+  background-image: url(/img/Events/halloween.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -596,10 +597,10 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
-  animation: halloween 6s infinite;
+  /* animation: halloween 6s infinite; */
 }
 
-@keyframes halloween{
+/* @keyframes halloween{
   0%{
     background-image: url(/img/Events/halloween.jpg);
   }
@@ -609,7 +610,7 @@ nav button:hover{
   100%{
     background-image: url(/img/Events/halloween.jpg);
   }
-}
+} */
 
 #event-5 {
   position: absolute;
