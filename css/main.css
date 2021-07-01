@@ -543,7 +543,7 @@ nav button:hover{
 }
 
 #event-1 {
-  position: relative;
+  position: relative;  
   background-image: url(/img/Events/2021_orientation-2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -553,6 +553,7 @@ nav button:hover{
   -webkit-background-size: cover;
   opacity: 1;
 }
+
 
 #event-2 {
   position: absolute;
@@ -588,7 +589,6 @@ nav button:hover{
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/img/Events/halloween.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -596,13 +596,26 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
+  animation: halloween 6s infinite;
 }
+
+@keyframes halloween{
+  0%{
+    background-image: url(/img/Events/halloween.jpg);
+  }
+  50% {
+    background-image: url(/img/Events/halloween-2.JPG);
+  }
+  100%{
+    background-image: url(/img/Events/halloween.jpg);
+  }
+}
+
 #event-5 {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(/img/Events/2020_orientation-2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -610,7 +623,22 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
+  animation: orientation_2020 6s infinite;
 }
+
+
+@keyframes orientation_2020{
+  0%{
+    background-image: url(/img/Events/2020_orientation-2.jpg);
+  }
+  50% {
+    background-image: url(/img/Events/2020_orientation.jpg);
+  }
+  100%{
+    background-image: url(/img/Events/2020_orientation-2.jpg);
+  }
+}
+
 #event-6 {
   position: absolute;
   top: 0;
@@ -624,6 +652,25 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
+  animation: hotpot_2020 12s infinite;
+}
+
+@keyframes hotpot_2020{
+  0%{
+    background-image: url(/img/Events/2020_Hot_Pot.jpg);
+  }
+  25% {
+    background-image: url(/img/Events/2020_Hot_Pot-2.jpg);
+  }
+  50% {
+    background-image: url(/img/Events/2020_Hot_Pot-3.jpg);
+  }
+  75% {
+    background-image: url(/img/Events/2020_Hot_Pot-4.jpg);
+  }
+  100%{
+    background-image: url(/img/Events/2020_Hot_Pot.jpg);
+  }
 }
 
 /*contact us */
