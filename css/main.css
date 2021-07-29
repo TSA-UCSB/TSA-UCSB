@@ -304,7 +304,7 @@ nav button:hover{
 }
 
 .services .service-item h4 {
-  margin-top: 20px;
+  margin-top: 16px;
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
@@ -314,7 +314,7 @@ nav button:hover{
 
 .services .service-item p {
   color: #bbb;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 28px;
 }
@@ -673,6 +673,76 @@ nav button:hover{
   }
 }
 
+/*merch*/
+.merch .container{
+  min-height: 400px;
+  position: relative;
+}
+
+.merch .background{
+  width: 100%;
+  filter: opacity(20%);
+  background-color: #F6EEE3;
+  border-radius: 2px;
+}
+
+.merch .container .background img{
+  height: 400px;
+  filter: opacity(20%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F6EEE3;
+}
+
+.merch .container .shop{
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.merch .container .shop .description{
+  padding: 50px 0px 10px 100px;
+  overflow: hidden;
+}
+.merch .container .shop .description h1{
+  color: white;
+  font-size: 18px;
+}
+.merch .container .shop .description p{
+  color: white;
+  font-size: 14px;
+}
+.merch .container .shop .description .btn{
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 250px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10%;
+}
+.merch .container .shop .description .btn a{
+  font-weight: bold;
+  color: #941725;
+  margin: auto;
+  text-decoration: none;
+}
+
+.merch .container .shop .demo{
+  padding: 50px 100px 50px 100px ;
+  
+}
+.merch .container .shop .demo img{
+  height: 100%;
+}
+
+
 /*contact us */
 
 .contact-us-container{
@@ -747,6 +817,12 @@ footer a:hover {
     font-size: 16px;
   }
   .event .content p {
+    font-size: 16px;
+  }
+  .services .service-item h4 {
+    font-size: 20px;
+  }
+  .services .service-item p {
     font-size: 16px;
   }
 }
