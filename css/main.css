@@ -384,7 +384,7 @@ nav button:hover{
 
 /*event coming up */
 .event {
-  background-image: url(/img/Events/2021_orientation.jpg);
+  background-image: url(/img/Events/2021_GM1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -394,7 +394,7 @@ nav button:hover{
 }
 
 .event .content {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);  
   text-align: left;
   padding: 150px 60px;
   color: #fff;
