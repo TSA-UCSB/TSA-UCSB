@@ -6,6 +6,7 @@ $(document).ready(function(){
         $('#event-4').css('opacity', '0');
         $('#event-5').css('opacity', '0');
         $('#event-6').css('opacity', '0');
+        $('#event-7').css('opacity', '0');
     }
     $('#event-1-thumbnail').hover(function() {
         $.clearAll();
@@ -35,5 +36,10 @@ $(document).ready(function(){
     $('#event-6-thumbnail').hover(function() {
         $.clearAll();
         $('#event-6').css('opacity', '1');
+    }); 
+
+    $('#event-7-thumbnail').hover(function() {
+        $.clearAll();
+        $('#event-7').css('opacity', '1');
     }); 
 });
