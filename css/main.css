@@ -1,9 +1,9 @@
 @import 'font.css';
 
 /* hide scroll bar */
-html {
+/* html {
   overflow-x: initial !important; 
-}
+} */
 
 body {
   font-family: 'Lucida Grande'/*, sans-serif*/;
