@@ -544,7 +544,7 @@ nav button:hover{
 
 #event-1 {
   position: relative;  
-  /* background-image: url(/img/Events/2021fall_bbq.jpg); */
+  background-image: url(/img/Events/2021fall_bbq.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -555,7 +555,7 @@ nav button:hover{
   animation: fall_bbq_2021 12s infinite;
 }
 
-@keyframes fall_bbq_2021{
+/* @keyframes fall_bbq_2021{
   0%{
     background-image: url(/img/Events/2021fall_bbq.jpg);
   }
@@ -571,7 +571,7 @@ nav button:hover{
   100%{
     background-image: url(/img/Events/2021fall_bbq.jpg);
   }
-}
+} */
 
 
 #event-2 {
