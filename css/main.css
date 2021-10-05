@@ -552,7 +552,7 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 1;
-  animation: fall_bbq_2021 12s infinite;
+  /* animation: fall_bbq_2021 12s infinite; */
 }
 
 /* @keyframes fall_bbq_2021{
