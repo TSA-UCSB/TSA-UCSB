@@ -622,6 +622,7 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
+  will-change: opacity;
 }
 #event-5 {
   position: absolute;
@@ -663,11 +664,12 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
-  animation: orientation_2020 6s infinite;
+  background-image: url(/img/Events/2020_orientation-2.jpg);
+  /* animation: orientation_2020 6s infinite; */
 }
 
 
-@keyframes orientation_2020{
+/* @keyframes orientation_2020{
   0%{
     background-image: url(/img/Events/2020_orientation-2.jpg);
   }
@@ -677,7 +679,7 @@ nav button:hover{
   100%{
     background-image: url(/img/Events/2020_orientation-2.jpg);
   }
-}
+} */
 
 #event-7 {
   position: absolute;
@@ -691,10 +693,10 @@ nav button:hover{
   transition: all 0.5s ease;
   -webkit-background-size: cover;
   opacity: 0;
-  animation: hotpot_2020 12s infinite;
+  /* animation: hotpot_2020 12s infinite; */
 }
 
-@keyframes hotpot_2020{
+/* @keyframes hotpot_2020{
   0%{
     background-image: url(/img/Events/2020_Hot_Pot.jpg);
   }
@@ -710,7 +712,7 @@ nav button:hover{
   100%{
     background-image: url(/img/Events/2020_Hot_Pot.jpg);
   }
-}
+} */
 
 /*merch*/
 .merch .container{
