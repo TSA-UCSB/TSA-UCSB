@@ -129,6 +129,11 @@ nav button:hover{
   opacity: 50%;
 }
 
+nav button a{
+  color: #ffffff;
+  text-decoration: unset;
+}
+
 /* video container */
 
 #video-container  {
