@@ -5,9 +5,9 @@
   overflow-x: initial !important; 
 } */
 :root{
-  --hue: 330;
-  --nomralLight: 30%;
-  --dimmerLight: 20%;
+  --hue: 215;
+  --nomralLight: 40%;
+  --dimmerLight: 30%;
 }
 body {
   background-color: 	hsl( var(--hue), 10%, var(--nomralLight)) ;
@@ -285,6 +285,8 @@ nav button p{
   /* background-color: #232323; */
   padding: 65px 0px;
   display: flex;
+  max-width: 1500px; 
+  margin: 0 auto; /* centering */
  }
 
  .services .service-item {
